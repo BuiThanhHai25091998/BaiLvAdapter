@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/HinhAnh"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#FD0000"
+        android:layout_marginLeft="5dp"
+        android:text="Tên Trái"
+        android:id="@+id/TenTrai"
+        android:layout_toRightOf="@+id/HinhAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#1BF603"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:id="@+id/MoTa"
+        android:text="Mô Tả trái Cây"
+        android:layout_below="@+id/TenTrai"
+        android:layout_toRightOf="@+id/HinhAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
